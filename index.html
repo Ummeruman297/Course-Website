@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Website</title>
+
+    <style>
+         {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .top-section {
+            display: flex;
+            gap: 20px;
+            align-items: stretch;
+            margin-bottom: 20px;
+        }
+        .course {
+            flex: 1;
+            padding: 18px;
+            border-radius: 12px;
+            border: 1px solid #eeeeee;
+        }
+
+        .web {
+            background-color: #f1edff;
+        }
+
+        .database {
+            background-color: #e5f4fc;
+        }
+
+        .python {
+            background-color: #e7f8ef;
+        }
+
+        .icon {
+            font-size: 35px;
+            margin-bottom: 12px;
+        }
+
+        .course h3 {
+            font-size: 18px;
+            color: #17375e;
+            margin: 8px 0;
+        }
+
+        .course p {
+            font-size: 14px;
+            color: #333333;
+            margin: 8px 0;
+        }
+
+        .course a {
+            text-decoration: none;
+            color: #3769b0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .quick-links {
+            width: 235px;
+            padding: 15px;
+            background-color: #f7faff;
+            border: 1px solid #eeeeee;
+            border-radius: 12px;
+        }
+
+        .quick-links h3 {
+            margin-top: 0;
+            color: #17375e;
+        }
+
+        .quick-links a {
+            display: block;
+            text-decoration: none;
+            color: #3769b0;
+            margin: 14px 0;
+            font-size: 16px;
+        }
+        .quote {
+            height: 140px;
+            border-radius: 12px;
+            background:
+                linear-gradient(rgba(0, 70, 120, 0.25),
+                                rgba(0, 70, 120, 0.25)),
+                url("sky.webp");
+
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 23px;
+            font-weight: bold;
+            padding: 15px;
+        }
+        @media (max-width: 750px) {
+            .top-section {
+                flex-wrap: wrap;
+            }
+
+            .course {
+                flex: 1 1 200px;
+            }
+
+            .quick-links {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-section">
+
+        <div class="course web">
+            <div class="icon">💻</div>
+            <h3>Web Technologies</h3>
+            <p>Learn HTML, CSS and JavaScript.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="course database">
+            <div class="icon">🗄️</div>
+            <h3>Database Systems</h3>
+            <p>Work with real-world data.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="course python">
+            <div class="icon">🐍</div>
+            <h3>Python Programming</h3>
+            <p>Build logic and solve problems.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <a href="#">🏠 Home</a>
+            <a href="#">ℹ️ About Us</a>
+            <a href="#">📖 Courses</a>
+            <a href="#">✉️ Contact</a>
+        </div>
+
+    </div>
+
+    <div class="quote">
+        “Small steps every day<br>
+        lead to big results.”
+	
+    </div>
+
+</body>
+</html>
